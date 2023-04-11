@@ -7,7 +7,20 @@
     <title>BMI Calc</title>
 </head>
 <body>
-    
+    <div class="judul">
+        <h2 align="center">Check your BMI</h2>
+        <h3 align="center">Enter your weight and height below to check your BMI results</h3>
+    </div>
+    <div class="wrapper">
+        <p>Put your weight in here (KG) : </p>
+        <input type="text" id="weight"><br><span id="weight_error"></span>
+
+        <p>And put your height in here (CM) : </p>
+        <input type="text" id="height"><br><span id="height_error"></span>
+        
+        <button id="btn">Calculate BMI</button>
+        <p id="output"></p>
+    </div>
 
 <script src="script.js"></script>
 </body>
